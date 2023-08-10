@@ -4,9 +4,9 @@ name: Integration Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, itests-playground ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, itests-playground ]
 
 jobs:
   build-linux:
